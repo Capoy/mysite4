@@ -11,7 +11,7 @@ public class MainController {
 	private static final Log log = 
 		LogFactory.getLog( MainController.class  );
 	
-	@RequestMapping( "" )
+	@RequestMapping( "/main" )
 	public String index() {
 		return "main/index";
 	}
