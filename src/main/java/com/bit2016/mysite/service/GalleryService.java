@@ -15,7 +15,7 @@ import com.bit2016.mysite.vo.GalleryVo;
 
 @Service
 public class GalleryService {
-	private static final String SAVE_PATH = "/upload";
+	private static final String SAVE_PATH = "/jblog-upload";
 	public static final String BASE_URL = "/gallery/assets/";
 			
 	@Autowired
